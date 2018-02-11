@@ -1,5 +1,5 @@
 const Command = require('./command')
-const YoutubeStream = require('youtube-audio-stream')
+const YoutubeStream = require('ytdl-core')
 
 module.exports = class Play extends Command {
     
